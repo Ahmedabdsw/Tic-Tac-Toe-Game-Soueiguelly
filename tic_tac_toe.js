@@ -22,15 +22,7 @@ function setPlayer(p){
   gameOrder = grtPrefectPosition(playersboard);
   setPlayer(1);
   ToPlay(playerPic,gameOrder)
-  /* [5,7,3,5,2,9,4,8,1,5,2,3,7,9,4,9,5,6,8]; [1,5,2,3,7,9,4,6,8];
- for (e of gameOrder){
-  var bool = playersboard.includes(e);
-  if(!bool){
-  playSound('action2.mp3');
-  ToPlay(playerPic,e);
-  break;
- }
- } */
+  
  }
 
  function Gamer(c){
