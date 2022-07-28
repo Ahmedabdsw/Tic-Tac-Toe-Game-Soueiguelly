@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Tic-Tac-Toe - open source Game with HTML, Javascript
+</title>
+<script src="synaptic.js"></script>
+<script src="tic_tac_toe.js"></script>
+
+<style>
+body {background: #000000f0;  color:#fff}
+img {width: 200px;}
+#players img{ width: 110px;}
+#winner {
+    width: 85%;
+    min-width: 800px;
+    min-height: 600px;
+    height: 800px;
+    position:fixed;
+    top: 17px;
+    left: 8%;
+    background-color: #0c0c0c3b;
+    visibility: hidden;
+}
+#winner h1 {font-size: 6rem; color: green;  text-align:center}
+#time1,#time2 { font-family: monospace;
+                color: green;
+                font-size: x-large;
+				}
+button {width: 105px;
+        height: 55px;
+        background: #dc36e6;
+		color:white;
+        margin: 12px;
+		}	
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+ table td, table th {
+    border: 6px solid #fffffff5;
+}
+
+
+</style>
+<script>
+</script>
+</head>
+<body>
+
+<div id="winner"></div>
+	<table id="players"   width="11%" >
+        <tr><th>PC </th><th>Gamer</th></tr>
+        <tr><td id="player1" ><img src='sercle.png' ></td><td id="player2" ><img src='croix.png'></td></tr>
+                                  </table>
+<br><br>
+<center>
+<table id="tab"  width="50%" height="87%">
+<tr><td id="id1" onclick="Gamer(1)"><img src='null.png' ></td><td id="id2" onclick="Gamer(2)"><img src='null.png' ></td><td id="id3" onclick="Gamer(3)"><img src='null.png' ></td></tr>
+<tr><td id="id4" onclick="Gamer(4)"><img src='null.png' ></td><td id="id5" onclick="Gamer(5)"><img src='null.png' ></td><td id="id6" onclick="Gamer(6)"><img src='null.png' ></td></tr>
+<tr><td id="id7" onclick="Gamer(7)"><img src='null.png' ></td><td id="id8" onclick="Gamer(8)"><img src='null.png' ></td><td id="id9" onclick="Gamer(9)"><img src='null.png' ></td></tr>
+</table>
+</center>
+
+
+</body>
+</html>
